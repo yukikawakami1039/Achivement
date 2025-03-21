@@ -95,6 +95,7 @@ a {
     margin: 1.25rem 0;
     font-size: clamp(1.5625rem, 5vw, 2.81rem);
     font-weight: 1000;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
 .third_block {
@@ -151,6 +152,7 @@ a {
     margin: 1.25rem 0;
     font-size: clamp(1.5625rem, 5vw, 2.81rem);
     font-weight: 1000;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
 .fourth_discription {
@@ -278,6 +280,7 @@ a {
     margin: 1.25rem 0;
     font-size: clamp(1.5625rem, 5vw, 2.81rem);
     font-weight: 800;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
 .sixth_contents {
@@ -297,7 +300,7 @@ a {
     font-weight: 500;
     color: #000000;
     margin: 2rem 0 2rem 0;
-    line-height: 28px;
+    line-height: 1.75rem;
 }
 
 .sixth_img_sp {
@@ -333,22 +336,23 @@ a {
     border: 0.125rem solid #000;
     border-radius: 1.3125rem;
     text-align: center;
-    padding: 14px 27px 13px 24px;
-    margin: 20px;
-    margin-bottom: 17px;
+    padding: 0.875rem 1.6875rem 0.8125rem 1.5rem;
+    margin: 1.25rem;
+    margin-bottom: 1.0625rem;
     position: relative;
 }
 
 .sixth_discription_title {
     font-size: clamp(1rem, 2.8vw, 1.75rem);
     font-family: "源ノ角ゴシック JP";
-    line-height: 22px;
+    line-height: 1.375rem;
     font-weight: 500;
 }
 
 .sixth_discription_detail {
     color: #FF0D4F;
-    font-size: clamp(1.125rem, 3vw, 2rem);   line-height: 30px;
+    font-size: clamp(1.125rem, 3vw, 2rem);
+    line-height: 1.875rem;
     transform: translateX(2.5rem);
     font-weight: medium;
 }
@@ -383,6 +387,7 @@ a {
     margin: 1.25rem 0;
     font-size: clamp(1.5625rem, 5vw, 2.81rem);
     font-weight: 800;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
 .seventh_contents {
@@ -394,7 +399,7 @@ a {
 .seventh_img_sp {
     width: 100%;
     height: auto;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .seventh_img_pc {
@@ -403,7 +408,112 @@ a {
 
 .seventh_img_arrow {
     width: 110%;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
+}
+
+.eighth_section {
+    width: 100%;
+    height: auto;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.eighth_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.eighth_title_letter {
+    display: inline-block;
+    margin: 1.25rem 0;
+    font-size: clamp(1.375rem, 5vw, 2.81rem);
+    font-weight: 800;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    line-height: normal;
+}
+
+.sp_break_86 {
+    display: block;
+}
+
+.eighth_contents {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.eighth_contetns_1 {
+    margin: 1.5625rem 0;
+    font-size: clamp(1rem, 2vw, 1.25rem); 
+    font-family: "Noto Sans JP";
+    line-height: 1.75rem;
+    font-weight: Regular;
+}
+
+.sp_break_81 {
+    display: block;
+}
+
+.sp_break_82 {
+    display: block;
+}
+
+.eighth_contents_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1rem;
+    background-color: rgba(8, 129, 147, 0.1);
+    border-radius: 53px;
+    padding: 41px 33px 40px 25px;
+}
+
+.eighth_contents_21 {
+    display: flex;
+    text-align: left;
+    gap: 0.5rem;
+}
+
+.eighth_contents_21 img {
+    width: 1.9375rem;
+    height: 1.6875rem;
+}
+
+.eighth_contents_21 p {
+    font-size: clamp(1rem, 2.8vw, 1.56rem);
+    font-family: "Noto Sans JP";
+    font-weight: Bold;
+    line-height: normal;
+}
+
+.eighth_contents_3 {
+    font-size: clamp(1rem, 2vw, 1.25rem); 
+    font-family: "Noto Sans JP";
+    font-weight: Regular;
+    line-height: normal;
+    margin: 1.5625rem 0 1.875rem 0;
+}
+
+.sp_break_83 {
+    display: block;
+}
+
+.sp_break_831 {
+    margin: 2rem;
+}
+
+.sp_break_84 {
+    display: block;
+}
+
+.sp_break_85 {
+    display: block;
+}
+
+.sp_break_88 {
+    display: block;
 }
 
 
@@ -500,12 +610,12 @@ a {
     }
 
     .sixth_section {
-        padding: 60px 40px 0 40px;
+        padding: 3.75rem 2.5rem 0 2.5rem;
     }
     
     
     .sixth_contents {
-        margin-top: clamp(30px, 7vw, 64px);
+        margin-top: clamp(1.875rem, 7vw, 4rem);
     }   
     
     .sixth_img_sp {
@@ -522,8 +632,8 @@ a {
     }
     
     .sixth_discription {
-        padding: 25px 10px 25px 50px;
-        margin-bottom: 11px;
+        padding: 1.5625rem 0.625rem 1.5625rem 3.125rem;
+        margin-bottom: 0.6875rem;
     }
     
     .sixth_discription_title {
@@ -543,14 +653,14 @@ a {
     }
     
     .sixth_discription img {
-        width: 360px;
+        width: 22.5rem;
         right: 50%;
-        left: -190px;
+        left: -11.875rem;
         transform: translateY(-10.5rem);
     }
     
     .seventh_section {
-        padding: 0 40px 0 40px;
+        padding: 0 2.5rem 0 2.5rem;
     }
 
     .seventh_img_sp {
@@ -561,11 +671,79 @@ a {
         display: block;
         width: 100%;
         height: auto;
-        margin-top: 58px;
+        margin-top: 3.625rem;
     }
     
     .seventh_img_arrow {
-        max-width: 404px;
+        max-width: 25.25rem;
+    }
+    
+    .eighth_section {
+        padding: 0 2.5rem;
+    }
+
+    
+    .sp_break_86 {
+    
+    }
+    
+    .eighth_contents {
+    
+    }
+    
+    .eighth_contetns_1 {
+        margin: 1.875rem 0;
+    }
+    
+    .sp_break_81 {
+        display: none;
+    }
+    
+    .sp_break_82 {
+    
+    }
+    
+    .eighth_contents_2 {
+        width: 100%;
+        max-width: 50.6875rem;
+        border-radius: 3.3125rem;
+        padding: 2.5625rem 2.0625rem 2.5rem 1.5625rem;
+    }
+    
+    .eighth_contents_21 {
+
+    }
+    
+    .sp_break_88 {
+    
+    }
+    
+    .eighth_contents_3 {
+    
+    }
+    
+    .sp_break_83 {
+    
+    }
+    
+    .sp_break_831 {
+    
+    }
+    
+    .sp_break_84 {
+    
+    }
+    
+    .sp_break_87 {
+    
+    }
+    
+    .sp_break_832 {
+    
+    }
+    
+    .sp_break_85 {
+    
     }
     
     
@@ -645,7 +823,7 @@ a {
     }
 
     .sixth_section {
-        padding: 64px 10vw 0 10vw;
+        padding: 4rem 10vw 0 10vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -653,27 +831,27 @@ a {
     
     .sixth_contents {
         width: 100%;
-        max-width: 998px;
-        margin: 64px auto 0 auto;
+        max-width: 62.375rem;
+        margin: 4rem auto 0 auto;
     }
 
     .sixth_contents p {
-        line-height: 40px;
+        line-height: 2.5rem;
     }
     
     .sixth_discription {
-        max-width: 920px;
-        margin: 20px auto 33px auto;
-        padding: 30px 70px 25px 110px;
+        max-width: 57.5rem;
+        margin: 1.25rem auto 2.0625rem auto;
+        padding: 1.875rem 4.375rem 1.5625rem 6.875rem;
     }
     
     .sixth_discription_detail {
-        line-height: 50px;
+        line-height: 3.125rem;
         font-weight: medium;
     }
     
     .sixth_discription img {
-        width: 491px;
+        width: 30.6875rem;
         transform: translate(-3rem, -13.8rem);
     }
 
@@ -753,7 +931,7 @@ a {
     }
 
     .sixth_discription {
-        padding: 11.2px 18.6px 10.4px 15.2px;
+        padding: 0.7rem 1.1625rem 0.65rem 0.95rem;
     }
 
     .sp_break_62 {
@@ -772,6 +950,30 @@ a {
         right: 49%;
         transform: translateY(-6.8rem);
     }
+
+    .eighth_title_letter {
+        font-size: 1.2rem;
+    }
+
+    
+    .eighth_contents_2 {
+        padding: 2rem 1.625rem 2rem 1.25rem;
+    }
+
+    .sp_break_88 {
+        display: none;
+    }
+
+    
+    .sp_break_832 {
+        display: none;
+    }
+
+    
+    .sp_break_84 {
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width: 330px) {
