@@ -516,6 +516,77 @@ a {
     display: block;
 }
 
+.nineth_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yellow-shape {
+    margin-top: 100px;
+    width: 100%;  
+    max-width: 765px;            /* お好みで */
+    height: 300px;             /* お好みで */
+    background-color: #F3EB78; /* 黄色の背景 */
+    /* 下は山型、上は谷型にするクリップパス */
+    clip-path: polygon(
+      0 0,      /* 左上コーナー（ちょっと下げる） */
+      50% 15%,      /* 上中央（谷の底） */
+      100% 0,   /* 右上コーナー（ちょっと下げる） */
+      100% 85%,   /* 右下コーナー（ちょっと上げる） */
+      50% 100%,   /* 下中央（山の頂点） */
+      0 85%       /* 左下コーナー（ちょっと上げる） */
+    );
+    position: absolute;
+}
+
+.nineth_contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.nineth_contents img {
+    width: 70%;
+    height: auto;
+    max-width: 387px;
+}
+
+.nineth_text {
+    display: flex;
+    text-align: center;
+}
+
+.nineth_text p {
+    font-size: clamp(40px, 2.92vw + 27.6px, 50px);
+    font-family: "Noto Sans JP";
+    font-weight: bold;
+    line-height: 65px;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 0.3em;
+    text-underline-offset: -0.1em; 
+}
+
+.nineth_text span {
+    font-size: clamp(55px, 2.04vw + 46.3px, 62px);
+}
+
+.nineth_blocks {
+    margin-top: 110px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nineth_blocks img {
+    width: 50%;
+    max-width: 259px;
+}
 
 @media screen and (min-width: 425px) {
     .sp_break42 {
@@ -578,6 +649,22 @@ a {
 
     .third_block_detail {
         max-width: 29rem;
+    }
+
+    .fourth_imges_sp {
+        display: none;
+    }
+
+    .fourth_imges_pc {
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .fourth_imges_pc img {
+        width: 100%;
+        max-width: 800px;
     }
 
     .fourth_comment p {
@@ -681,15 +768,6 @@ a {
     .eighth_section {
         padding: 0 2.5rem;
     }
-
-    
-    .sp_break_86 {
-    
-    }
-    
-    .eighth_contents {
-    
-    }
     
     .eighth_contetns_1 {
         margin: 1.875rem 0;
@@ -699,54 +777,42 @@ a {
         display: none;
     }
     
-    .sp_break_82 {
-    
-    }
-    
     .eighth_contents_2 {
         width: 100%;
         max-width: 50.6875rem;
         border-radius: 3.3125rem;
         padding: 2.5625rem 2.0625rem 2.5rem 1.5625rem;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
     }
     
     .eighth_contents_21 {
+        max-width: 567px;
+        width: 100%;
+    }
 
+    .eighth_wrap {
+        align-items: center;
+        display: flex;  
+    }
+
+    .eighth_contents_21 img {
+        width: 59px;
+        height: 53px;
     }
     
     .sp_break_88 {
-    
+        display: none;
     }
-    
-    .eighth_contents_3 {
-    
+
+    .sp_break_881 {
+        display: block;
     }
-    
-    .sp_break_83 {
-    
+
+    .nineth_blocks {
+        margin-bottom: clamp(100px, 9.05vw + 30.5px, 121px);
     }
-    
-    .sp_break_831 {
-    
-    }
-    
-    .sp_break_84 {
-    
-    }
-    
-    .sp_break_87 {
-    
-    }
-    
-    .sp_break_832 {
-    
-    }
-    
-    .sp_break_85 {
-    
-    }
-    
-    
 }
 
 @media screen and (min-width: 1000px) {
@@ -856,7 +922,7 @@ a {
     }
 
     .seventh_section {
-        padding: 0 10vw 0 10vw;
+        padding: 0 10vw;
     }  
 
     .seventh_contents {
@@ -871,6 +937,32 @@ a {
     
     .seventh_img_arrow {
         margin-bottom: 0;
+    }
+    
+    .eighth_section {
+        padding: 0 10vw;
+    }
+    .yellow-shape {
+        clip-path: polygon(
+            0 0,      /* 左上コーナー（ちょっと下げる） */
+            50% 20%,      /* 上中央（谷の底） */
+            100% 0,   /* 右上コーナー（ちょっと下げる） */
+            100% 80%,   /* 右下コーナー（ちょっと上げる） */
+            50% 100%,   /* 下中央（山の頂点） */
+            0 80%       /* 左下コーナー（ちょっと上げる） */
+        );
+    }
+
+    .nineth_text p {
+        line-height: 80px;
+    }
+    
+    .nineth_blocks {
+        margin-top: -30px;
+        max-width: 942px;
+        border: #fff;
+        padding: 172px 0 88px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
     
     
@@ -974,6 +1066,17 @@ a {
         display: none;
     }
     
+    .nineth_blocks {
+        margin-top: 130px;
+    }
+
+    .nineth_text p {
+        font-size: 35px;
+    }
+
+    .nineth_text span {
+        font-size: 46px;
+    }
 }
 
 @media screen and (max-width: 330px) {
