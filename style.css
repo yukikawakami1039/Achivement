@@ -523,19 +523,18 @@ a {
 }
 
 .yellow-shape {
-    margin-top: 100px;
+    margin-top: 6.25rem;
     width: 100%;  
-    max-width: 765px;            /* お好みで */
-    height: 300px;             /* お好みで */
-    background-color: #F3EB78; /* 黄色の背景 */
-    /* 下は山型、上は谷型にするクリップパス */
+    max-width: 47.8125rem;
+    height: 18.75rem;
+    background-color: #F3EB78;
     clip-path: polygon(
-      0 0,      /* 左上コーナー（ちょっと下げる） */
-      50% 15%,      /* 上中央（谷の底） */
-      100% 0,   /* 右上コーナー（ちょっと下げる） */
-      100% 85%,   /* 右下コーナー（ちょっと上げる） */
-      50% 100%,   /* 下中央（山の頂点） */
-      0 85%       /* 左下コーナー（ちょっと上げる） */
+        0 0,
+        50% 15%,
+        100% 0,
+        100% 85%,
+        50% 100%,
+        0 85%
     );
     position: absolute;
 }
@@ -551,7 +550,7 @@ a {
 .nineth_contents img {
     width: 70%;
     height: auto;
-    max-width: 387px;
+    max-width: 24.1875rem;
 }
 
 .nineth_text {
@@ -560,10 +559,10 @@ a {
 }
 
 .nineth_text p {
-    font-size: clamp(40px, 2.92vw + 27.6px, 50px);
+    font-size: clamp(2.5rem, 2.92vw + 1.725rem, 3.125rem);
     font-family: "Noto Sans JP";
     font-weight: bold;
-    line-height: 65px;
+    line-height: 4.0625rem;
     text-decoration: underline;
     text-decoration-color: #fff;
     text-decoration-thickness: 0.3em;
@@ -571,11 +570,11 @@ a {
 }
 
 .nineth_text span {
-    font-size: clamp(55px, 2.04vw + 46.3px, 62px);
+    font-size: clamp(3.4375rem, 2.04vw + 2.89375rem, 3.875rem);
 }
 
 .nineth_blocks {
-    margin-top: 110px;
+    margin-top: 6.875rem;
     display: flex;
     width: 100%;
     height: auto;
@@ -585,7 +584,124 @@ a {
 
 .nineth_blocks img {
     width: 50%;
-    max-width: 259px;
+    max-width: 16.1875rem;
+}
+
+.tenth_section {
+    width: 100%;
+    height: auto;
+    padding: 45px 1rem 0 1rem;
+    background-color: #F8F8F8;
+}
+
+.tenth_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.tenth_title_letter {
+    display: inline-block;
+    margin: 1.25rem 0;
+    font-size: clamp(1.5625rem, 5vw, 2.81rem);
+    font-weight: 800;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+.tenth_discription {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 21px 0 16px 0;
+}
+
+.tenth_person {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 44px;
+    padding: 17px 19px;
+    margin: 0.5rem 0;
+}
+
+.tenth_person_1 {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 44px;
+    padding: 17px 19px;
+    margin: 0.5rem 0;
+}
+
+.tenth_name {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.tenth_name p {
+    color: #088193;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 27px;
+}
+
+.tenth_name span {
+    font-size: 1rem;
+}
+
+.tenth_person img {
+    width: 70%;
+    min-width: 260px;
+}
+
+.tenth_text {
+    font-size: 0.9rem;
+    line-height: 20px;
+    font-weight: regular;
+    font-family: "Noto Sans JP";
+}
+
+.sp_break_10 {
+    display: block;
+}
+
+.sp_space_10 {
+    margin: 1rem;
+}
+
+.tenth_subtitle {
+    display: inline-block;
+    background-color: #088193;
+    padding: 3px 1rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.tenth_subtitle p {
+    font-size: 0.9rem;
+    color: #FFFFFF;
+}
+
+.tenth_link {
+    margin-bottom: 1rem;
+}
+
+.tenth_img {
+    display: flex;
+    justify-content: center;
+}
+
+.tenth_right_sp {
+    width: 49%;
+}
+
+.tenth_right_pc {
+    display: none;
 }
 
 @media screen and (min-width: 425px) {
@@ -659,12 +775,12 @@ a {
         display: block;
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 
     .fourth_imges_pc img {
         width: 100%;
-        max-width: 800px;
+        max-width: 50rem;
     }
 
     .fourth_comment p {
@@ -798,8 +914,8 @@ a {
     }
 
     .eighth_contents_21 img {
-        width: 59px;
-        height: 53px;
+        width: 3.6875rem;
+        height: 3.3125rem;
     }
     
     .sp_break_88 {
@@ -811,8 +927,77 @@ a {
     }
 
     .nineth_blocks {
-        margin-bottom: clamp(100px, 9.05vw + 30.5px, 121px);
+        margin-bottom: clamp(6.25rem, 9.05vw + 1.90625rem, 7.5625rem);
     }
+
+    .tenth_section {
+
+    }
+    
+    .tenth_title {
+    
+    }
+    
+    .title_line {
+    
+    }
+    
+    .tenth_title_letter {
+    
+    }
+    
+    .tenth_discription {
+        gap: 0.5rem;
+    }
+    
+    .tenth_person {
+        max-width: 526px;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .tenth_name {
+    
+    }
+    
+    .tenth_text {
+    
+    }
+    
+    .sp_break_10 {
+    
+    }
+    
+    .sp_space_10 {
+    
+    }
+    
+    .tenth_subtitle {
+    
+    }
+    
+    .tenth_link {
+    
+    }
+    
+    .tenth_subtext {
+    
+    }
+    
+    .tenth_img {
+    
+    }
+
+    .tenth_person:first-child {
+        width: 49%;
+    }
+    
+    .tenth_person_1 {
+        max-width: 526px;
+        width: 100%;
+        margin: 0;
+    }
+    
 }
 
 @media screen and (min-width: 1000px) {
@@ -954,15 +1139,15 @@ a {
     }
 
     .nineth_text p {
-        line-height: 80px;
+        line-height: 5rem;
     }
     
     .nineth_blocks {
-        margin-top: -30px;
-        max-width: 942px;
+        margin-top: -1.875rem;
+        max-width: 58.875rem;
         border: #fff;
-        padding: 172px 0 88px 0;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 10.75rem 0 5.5rem 0;
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
     }
     
     
@@ -1067,15 +1252,15 @@ a {
     }
     
     .nineth_blocks {
-        margin-top: 130px;
+        margin-top: 8.125rem;
     }
 
     .nineth_text p {
-        font-size: 35px;
+        font-size: 2.1875rem;
     }
 
     .nineth_text span {
-        font-size: 46px;
+        font-size: 2.875rem;
     }
 }
 
