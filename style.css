@@ -223,11 +223,11 @@ a {
 }
 
 .fourth_comment img {
-    width: 48vw;
-    max-width: 12.5625rem;
+    width: 40vw;
+    max-width: 9.5625rem;
     height: auto;
     position: absolute;
-    right: -2.5rem;
+    right: 0;
     transform: translateY(1.875rem);
 }
 
@@ -876,15 +876,13 @@ footer {
     }
 
     .fourth_comment p {
-        padding: 1.125rem 2.75rem 1.5rem 1.5rem;
+        padding: 1.025rem 2.75rem 1.2rem 1.5rem;
     }
 
     .fourth_comment img {
-        width: 20.625rem;
-        max-width: 20.625rem;
-        right: auto;
-        left: 50%;
-        transform: translate(10rem, -1.875rem);
+        min-width: 16rem;
+        right: 50%;
+        transform: translate(24rem, -1.875rem);
     }
 
     .fifth_belt img {
@@ -1162,7 +1160,7 @@ footer {
     }
 
     .fourth_section {
-        padding: 6.25rem 10vw 1.875rem 10vw;
+        padding: 6.25rem 5.6vw 1.875rem 5.6vw;
     }
 
     .fourth_discription_title {
@@ -1180,11 +1178,8 @@ footer {
     }
 
     .fourth_comment img {
-        width: 40vw;
-        max-width: 24.0625rem;
-        right: auto;
-        left: 50%;
-        transform: translate(14.375rem, -1.875rem);
+        min-width: 21.06rem;
+        transform: translate(31.375rem, -1.875rem);
     }
     
     .fifth_btn {
@@ -1310,6 +1305,11 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
+    .fourth_comment img {
+        min-width: 24.06rem;
+        transform: translate(35.375rem, -5.175rem);
+    }
+
     .footer_img_0,
     .footer_img_1 {
         width: 100%;
