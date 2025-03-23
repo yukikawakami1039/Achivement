@@ -1,5 +1,6 @@
 html {
     font-size: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -139,6 +140,7 @@ a {
     height: auto;
     padding: 2.1875rem 1.75rem 2.3125rem 1.75rem;
     background-color: #F8F8F8;
+    overflow-x: hidden;
 }
 
 .fourth_title {
@@ -208,6 +210,7 @@ a {
     display: flex;
     text-align: center;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .fourth_comment p {
@@ -346,17 +349,18 @@ a {
 
 .sixth_discription_title {
     font-size: clamp(1rem, 2.8vw, 1.75rem);
-    font-family: "源ノ角ゴシック JP";
+    font-family: "Noto Sans JP";
     line-height: 1.375rem;
-    font-weight: 500;
+    font-weight: medium;
 }
 
 .sixth_discription_detail {
     color: #FF0D4F;
     font-size: clamp(1.125rem, 3vw, 2rem);
+    font-family: "Noto Sans JP";
     line-height: 1.875rem;
     transform: translateX(2.5rem);
-    font-weight: medium;
+    font-weight: bold;
 }
 
 .sixth_highlight {
@@ -1088,7 +1092,7 @@ footer {
     }
 
     .yellowback {
-        height: 37.5rem;
+        height: 20.5rem;
     }
 
     .footer_title {
@@ -1103,21 +1107,22 @@ footer {
     .footer_img_1 {
         width: 65%;
         position: absolute;
-        max-width: 384px;
+        max-width: 230px;
     }
 
     .footer_belt {
-        margin-top: 20rem;
+        margin-top: 10rem;
     }
 }
 
 @media screen and (min-width: 768px) {
     .footer_belt {
-        margin-top: 20rem;
+        margin-top: 12rem;
     }
 }
 
 @media screen and (min-width: 1000px) {
+    .footer_belt img,
     .second_belt img {
         width: 100%;
         height: 20vw;
@@ -1291,12 +1296,25 @@ footer {
     .footer_belt {
         margin-top: 18.75rem;
     }
+
+    .footer_img_0,
+    .footer_img_1 {
+        width: 100%;
+        max-width: 384px;
+    }
+
+    .yellowback {
+        height: 37.5rem;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
     .footer_img_0,
     .footer_img_1 {
+        width: 100%;
         margin-top: -15rem;
+        max-width: 384px;
     }
 
     .footer_belt {
