@@ -86,6 +86,7 @@ a {
 
 .title_line {
     width: 100%;
+    max-width: 62.5rem;
     min-height: 0.125rem;
     border-top: 0.125rem solid #000;
 }
@@ -128,6 +129,7 @@ a {
 }
 
 .tihrd_partition {
+    width: 100%;
     border-top: 0.3125rem dotted #000;
     margin: 1.25rem 0;   
 }
@@ -466,8 +468,8 @@ a {
     align-items: left;
     gap: 1rem;
     background-color: rgba(8, 129, 147, 0.1);
-    border-radius: 53px;
-    padding: 41px 33px 40px 25px;
+    border-radius: 3.3125rem;
+    padding: 2.5625rem 2.0625rem 2.5rem 1.5625rem;
 }
 
 .eighth_contents_21 {
@@ -590,7 +592,7 @@ a {
 .tenth_section {
     width: 100%;
     height: auto;
-    padding: 45px 1rem 0 1rem;
+    padding: 2.8125rem 1rem 0 1rem;
     background-color: #F8F8F8;
 }
 
@@ -616,7 +618,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 21px 0 16px 0;
+    margin: 1.3125rem 0 1rem 0;
 }
 
 .tenth_person,
@@ -625,8 +627,8 @@ a {
     width: 100%;
     height: auto;
     background-color: #FFFFFF;
-    border-radius: 44px;
-    padding: 17px 19px;
+    border-radius: 2.75rem;
+    padding: 1.0625rem 1.1875rem;
     margin: 0;
 }
 
@@ -639,24 +641,24 @@ a {
 
 .tenth_name p {
     color: #088193;
-    font-size: clamp(25px, 1.739vw + 17.61px, 35px);
+    font-size: clamp(1.5625rem, 1.739vw + 1.100625rem, 2.1875rem);
     font-weight: bold;
-    line-height: 27px;
+    line-height: 1.6875rem;
 }
 
 .tenth_name span {
-    font-size: clamp(16px, 0.696vw + 13.04px, 20px);
+    font-size: clamp(1rem, 0.696vw + 0.815rem, 1.25rem);
 }
 
 .tenth_person_0 img {
     width: 70%;
-    min-width: 260px;
-    max-width: 361px;
+    min-width: 16.25rem;
+    max-width: 22.5625rem;
 }
 
 .tenth_text {
     font-size: 0.9rem;
-    line-height: 20px;
+    line-height: 1.25rem;
     font-weight: regular;
     font-family: "Noto Sans JP";
 }
@@ -672,7 +674,7 @@ a {
 .tenth_subtitle {
     display: inline-block;
     background-color: #088193;
-    padding: 3px 1rem;
+    padding: 0.1875rem 1rem;
     margin: 1.2rem 0 0.7rem 0;
 }
 
@@ -694,11 +696,100 @@ a {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 11px;
+    gap: 0.6875rem;
 }
 
 .tenth_right_pc {
     display: none;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #F8F8F8;
+    margin-top: -0.9375rem;
+}
+
+.yellowback {
+    width: 100%;
+    height: 110vw;
+    max-height: 406.5rem;
+    min-height: 29.375rem;
+    background-color: #F3EB78;
+    clip-path: polygon(
+        0 0,
+        50% 10%,
+        100% 0,
+        100% 100%,
+        50% 100%,
+        0 100%
+    );
+    position: absolute;
+}
+
+.footer_contents {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 4.6875rem;
+}
+
+.footer_title p {
+    font-size: clamp(1.5rem, 1.015rem + 1.83vw, 2.5rem);
+    font-family: "Noto Sans JP";
+    font-weight: bold;
+    line-height: clamp(1.875rem, 0.509375rem + 5.14vw, 4.6875rem);
+}
+
+.sp_break_11,
+.sp_break_110,
+.sp_break_111 {
+    display: block;
+}
+
+.footer_highlight {
+    color: #FF0D4F;
+    font-weight: heavy;
+}
+
+
+.footer_img_0,
+.footer_img_1 {
+    width: 55%;
+    position: absolute;
+    max-width: 24rem;
+}
+
+.footer_img_0{
+    left: 0;
+}
+
+.footer_img_1 {
+    right: 0;
+}
+
+.footer_belt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 45vw;
+}
+
+.footer_belt img {
+    width: 100%;
+    height: 6.875rem;
 }
 
 @media screen and (min-width: 425px) {
@@ -901,7 +992,7 @@ a {
     }
     
     .eighth_contents_21 {
-        max-width: 567px;
+        max-width: 35.4375rem;
         width: 100%;
     }
 
@@ -931,7 +1022,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 30px 2.5rem 0 2.5rem;
+        padding: 1.875rem 2.5rem 0 2.5rem;
     }
     
     .tenth_title {
@@ -944,19 +1035,20 @@ a {
     
     .tenth_discription {
         gap: 0.8rem;
-        max-width: 1066px;
+        max-width: 66.625rem;
+        margin-top: 2.8125rem;
     }
 
     .tenth_person_0,
     .tenth_person_1 {
-        padding: 40px 47px;
+        padding: 2.5rem 2.9375rem;
     }
     
     .tenth_person {
-        max-width: 526px;
+        max-width: 32.875rem;
         width: 100%;
         margin: 0;
-        padding: 19px 55px;
+        padding: 1.1875rem 3.4375rem;
     }
     
     .tenth_name {
@@ -980,7 +1072,7 @@ a {
     }
 
     .tenth_subtitle {
-        margin: 42px 0 18px 0;
+        margin: 2.625rem 0 1.125rem 0;
     }
     
     .tenth_right_sp {
@@ -993,6 +1085,35 @@ a {
         display: flex;
         flex-direction: column;
         gap: 11px;
+    }
+
+    .yellowback {
+        height: 37.5rem;
+    }
+
+    .footer_title {
+        margin-top: 6.25rem;
+    }
+
+    .sp_break_11 {
+        display: none;
+    }
+
+    .footer_img_0,
+    .footer_img_1 {
+        width: 65%;
+        position: absolute;
+        max-width: 384px;
+    }
+
+    .footer_belt {
+        margin-top: 20rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer_belt {
+        margin-top: 20rem;
     }
 }
 
@@ -1147,12 +1268,12 @@ a {
     }
     
     .tenth_section {
-        padding: 30px 10vw;
+        padding: 1.875rem 10vw;
     }
 
     .tenth_person,
     .tenth_person_1 {
-        padding: 20px 55px;
+        padding: 1.25rem 3.4375rem;
     }
 
     .tenth_text {
@@ -1165,6 +1286,25 @@ a {
 
     .sp_space_101 {
         margin: 1rem;
+    }
+
+    .footer_belt {
+        margin-top: 18.75rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer_img_0,
+    .footer_img_1 {
+        margin-top: -15rem;
+    }
+
+    .footer_belt {
+        margin-top: 6.125rem;
+    }
+
+    .yellowback {
+        height: 31.25rem;
     }
 }
 
@@ -1276,6 +1416,10 @@ a {
 
     .nineth_text span {
         font-size: 2.875rem;
+    }
+
+    .sp_break_111 {
+        display: none;
     }
 }
 
