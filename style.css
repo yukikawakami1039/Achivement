@@ -537,6 +537,10 @@ a {
   display: block;
 }
 
+.sp_break_841 {
+  display: block;
+}
+
 .sp_break_85 {
   display: block;
 }
@@ -687,7 +691,15 @@ a {
   font-family: "Noto Sans JP";
 }
 
+.sp_break_100 {
+  display: none;
+}
+
 .sp_break_10 {
+  display: none;
+}
+
+.sp_break_101 {
   display: block;
 }
 
@@ -808,13 +820,33 @@ footer {
   height: 6.875rem;
 }
 
-@media screen and (min-width: 425px) {
+.sp_break_100 {
+  display: block;
+}
+
+@media screen and (min-width: 430px) {
   .sp_break42 {
     display: block;
   }
 
   .sp_break_43 {
+    display: block;
+  } 
+
+  .sp_break_10 {
+    display: block;
+  }
+  
+  .sp_break_101 {
+    display: block;
+  }
+
+  .sp_break_100 {
     display: none;
+  }
+
+  .sp_space_10 {
+    margin: 1rem;
   }
 
   .fourth_comment {
@@ -913,6 +945,10 @@ footer {
 
   .fith_title p {
     font-size: clamp(1.375rem, 2.7vw, 2rem);
+  }
+
+  .sp_break_43 {
+    display: block;
   }
 
   .sp_break_51 {
@@ -1299,10 +1335,6 @@ footer {
   }
 
   .sp_space_10 {
-    margin: 2rem;
-  }
-
-  .sp_space_101 {
     margin: 1rem;
   }
 
@@ -1379,11 +1411,15 @@ footer {
   }
 
   .sp_break {
-    display: none;
+    display: block;
   }
 
   .sp_break_41 {
     display: block;
+  }
+
+  .sp_break_43 {
+    display: none;
   }
 
   .fourth_comment p {
@@ -1440,6 +1476,10 @@ footer {
   }
 
   .sp_break_84 {
+    display: block;
+  }
+
+  .sp_break_841 {
     display: none;
   }
 
@@ -1457,6 +1497,10 @@ footer {
 
   .sp_break_111 {
     display: none;
+  }
+
+  .sp_space_10 {
+    margin: 1rem;
   }
 }
 
